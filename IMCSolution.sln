@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Domain", "ClassLibrary1\IMCTaxCalculator.Domain.csproj", "{111DA96F-1FAE-4D6E-8147-CD0EF0E38318}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Presentation", "Presentation\IMCTaxCalculator.Presentation.csproj", "{78C629EA-A341-444F-9005-779586939C64}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Test", "IMCTaxCalculator.Test\IMCTaxCalculator.Test.csproj", "{6D3AA755-2C3A-461F-8E56-11BB12173722}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculater.Application", "IMCTaxCalculater.Application\IMCTaxCalculater.Application.csproj", "{F2BAA967-41E0-4CBD-A2B4-3DF1AF1E7BFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D20F056-0B2E-4B88-AB3C-9861A6508DC3}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Domain", "IMCCalculator.Domain\IMCTaxCalculator.Domain.csproj", "{FCDAB49A-51DB-4C24-A47C-45DB7A5C026A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Presentation", "IMCCalculator.Presentation\IMCTaxCalculator.Presentation.csproj", "{61CE2E2C-2C84-419E-947D-B000AE7BCF40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCTaxCalculator.Application", "IMCTaxCalculater.Application\IMCTaxCalculator.Application.csproj", "{A396B43C-AB6C-4055-BE2E-3464B459E932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,22 +22,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{111DA96F-1FAE-4D6E-8147-CD0EF0E38318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{111DA96F-1FAE-4D6E-8147-CD0EF0E38318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{111DA96F-1FAE-4D6E-8147-CD0EF0E38318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{111DA96F-1FAE-4D6E-8147-CD0EF0E38318}.Release|Any CPU.Build.0 = Release|Any CPU
-		{78C629EA-A341-444F-9005-779586939C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78C629EA-A341-444F-9005-779586939C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78C629EA-A341-444F-9005-779586939C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78C629EA-A341-444F-9005-779586939C64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D3AA755-2C3A-461F-8E56-11BB12173722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D3AA755-2C3A-461F-8E56-11BB12173722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3AA755-2C3A-461F-8E56-11BB12173722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3AA755-2C3A-461F-8E56-11BB12173722}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2BAA967-41E0-4CBD-A2B4-3DF1AF1E7BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2BAA967-41E0-4CBD-A2B4-3DF1AF1E7BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2BAA967-41E0-4CBD-A2B4-3DF1AF1E7BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2BAA967-41E0-4CBD-A2B4-3DF1AF1E7BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDAB49A-51DB-4C24-A47C-45DB7A5C026A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDAB49A-51DB-4C24-A47C-45DB7A5C026A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDAB49A-51DB-4C24-A47C-45DB7A5C026A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDAB49A-51DB-4C24-A47C-45DB7A5C026A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CE2E2C-2C84-419E-947D-B000AE7BCF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CE2E2C-2C84-419E-947D-B000AE7BCF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CE2E2C-2C84-419E-947D-B000AE7BCF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CE2E2C-2C84-419E-947D-B000AE7BCF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A396B43C-AB6C-4055-BE2E-3464B459E932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A396B43C-AB6C-4055-BE2E-3464B459E932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A396B43C-AB6C-4055-BE2E-3464B459E932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A396B43C-AB6C-4055-BE2E-3464B459E932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,7 @@ namespace IMCTaxCalculator.Domain.Models
 {
     public class CustOrder
     {
+
         public string to_street { get; set; }
         public float amount { get; set; }
         public string from_country { get; set; }
